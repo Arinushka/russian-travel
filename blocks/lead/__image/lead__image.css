@@ -21,6 +21,14 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+    /* стили для широкого смартфона */
+    .lead__image {
+        max-width: 480px;
+        height: 320px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     /* стили для малого смартфона */
     .lead__image {

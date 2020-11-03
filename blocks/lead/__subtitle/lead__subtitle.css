@@ -8,6 +8,16 @@
     max-width: 640px;
 }
 
+@media screen and (max-width: 450px) {
+    /* стили для широкого смартфона */
+    .lead__subtitle {
+        max-width: 300px;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        font-weight: 400;
+    }
+}
+
 @media screen and (max-width: 320px) {
     /* стили для малого смартфона */
     .lead__subtitle {

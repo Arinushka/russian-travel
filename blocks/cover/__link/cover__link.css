@@ -52,6 +52,14 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+    /* стили для широкого смартфона */
+    .cover__link {
+        min-height: 320px;
+        max-width: 450px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     /* стили для малого смартфона */
     .cover__link {

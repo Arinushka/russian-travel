@@ -14,6 +14,14 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+    /* стили для широкого смартфона */
+    .place__pargraph {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     /* стили для малого смартфона */
     .place__paragraph {
