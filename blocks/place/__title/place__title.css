@@ -5,6 +5,7 @@
         line-height: 4.75rem;
         font-weight: 900;
         width: 460px;
+        text-align: left;
     }
     
     @media screen and (max-width: 1024px) {
@@ -19,6 +20,7 @@
         .place__title {
             margin-left: 24px;
             max-width: 340px;
+            min-height: 92px;
             font-size: 2.6rem;
             line-height: 2.8rem;
         }
