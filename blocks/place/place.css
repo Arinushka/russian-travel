@@ -4,7 +4,7 @@
         grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
         column-gap: 40px;
         max-width: 984px;
-        height: 660px;
+        min-height: 660px;
         margin-top: 80px;
     }
     
@@ -12,7 +12,7 @@
         /* стили для планшета */
         .place {
             max-width: 720px;
-            height: 581px;
+            min-height: 581px;
         }
     }
     
@@ -20,7 +20,7 @@
         /* стили для широкого смартфона */
         .place {
             max-width: 380px;
-            height: 930px;
+            min-height: 930px;
             margin-left: 16px;
             margin-right: 16px;
         }
@@ -30,7 +30,7 @@
         /* стили для малого смартфона */
         .place {
             max-width: 320px;
-            height: 964px;
+            min-height: 964px;
             margin-left: 0px;
             margin-right: 0px;
         }

@@ -1,4 +1,7 @@
 .header__lang-link_content_ru {
-    height: 28px;
+    min-height: 28px;
     max-width: 30px;
+    text-decoration: none;
+    font-family: 'Inter', Arial, sans-serif, Helvetica;
+    border-bottom: 1px solid #fff;
 }

@@ -3,4 +3,6 @@
     line-height: 1.37rem;
     font-weight: 400;
     color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
 }

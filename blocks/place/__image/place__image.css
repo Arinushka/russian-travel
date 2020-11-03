@@ -4,6 +4,16 @@
     grid-row: 2/5;
 }
 
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+    .place__image {
+        margin-left: 16px;
+        margin-right: 16px;
+        max-width: 400px;
+        min-height: 400px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     /* стили для планшета */
     .place__image {
