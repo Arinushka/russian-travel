@@ -1,0 +1,23 @@
+    .footer__link {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.12rem;
+        text-align: left;
+        text-decoration: none;
+        color: #fff;
+        margin-right: 18px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        /* стили для планшета */
+        .footer__link {}
+    }
+    
+    @media screen and (max-width: 320px) {
+        /* стили для малого смартфона */
+        .footer__link {
+            font-size: 1.3rem;
+            line-height: 1.3rem;
+            margin-bottom: 32px;
+        }
+    }

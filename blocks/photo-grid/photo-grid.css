@@ -1,0 +1,27 @@
+.photo-grid {
+    max-width: 1184px;
+    margin-top: 92px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .photo-grid {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+    .photo-grid {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

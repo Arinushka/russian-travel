@@ -1,0 +1,25 @@
+.place__image {
+    max-width: 460px;
+    min-height: 460px;
+    grid-row: 2/5;
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .place__image {
+        margin-left: 24px;
+        margin-right: 28px;
+        max-width: 340px;
+        min-height: 340px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+    .place__image {
+        max-width: 320px;
+        min-height: 320px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

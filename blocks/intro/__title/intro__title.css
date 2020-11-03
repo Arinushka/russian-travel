@@ -1,0 +1,27 @@
+    .intro__title {
+        margin: 0;
+        margin-top: 92px;
+        font-size: 3.37rem;
+        line-height: 3.6rem;
+        font-weight: 900;
+        max-width: 690px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        /* стили для планшета */
+        .intro__title {
+            max-width: 720px;
+            margin-top: 88px;
+        }
+    }
+    
+    @media screen and (max-width: 320px) {
+        /* стили для малого смартфона */
+        .intro__title {
+            max-width: 288px;
+            margin-top: 64px;
+            font-size: 2rem;
+            line-height: 2.2rem;
+            font-weight: 900;
+        }
+    }

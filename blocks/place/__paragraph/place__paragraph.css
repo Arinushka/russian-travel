@@ -1,0 +1,23 @@
+.place__paragraph {
+    margin: 0 a;
+    margin-bottom: 26px;
+    font-size: 1.12rem;
+    line-height: 1.83rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .place__paragraph {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+    .place__paragraph {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

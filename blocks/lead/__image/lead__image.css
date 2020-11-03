@@ -1,0 +1,30 @@
+.lead__image {
+    background-image: url(../../../sprint-3-images/lead__polka.png);
+    background-size: cover;
+    max-width: 964px;
+    height: 615px;
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+    .lead__image {
+        max-width: 928px;
+        height: 580px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .lead__image {
+        max-width: 768px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+    .lead__image {
+        max-width: 320px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,14 @@
+.lead {
+    max-width: 984px;
+    max-height: 1005px;
+    margin-top: 56px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+    .lead {
+        max-width: 320px;
+    }
+}

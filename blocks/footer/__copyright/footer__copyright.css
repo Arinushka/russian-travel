@@ -1,0 +1,10 @@
+.footer__copyright {
+    min-width: 186px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .footer__copiryght {}
+}

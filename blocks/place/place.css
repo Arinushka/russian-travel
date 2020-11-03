@@ -1,0 +1,25 @@
+    .place {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+        column-gap: 40px;
+        max-width: 984px;
+        height: 660px;
+        margin-top: 80px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        /* стили для планшета */
+        .place {
+            max-width: 720px;
+            height: 581px;
+        }
+    }
+    
+    @media screen and (max-width: 320px) {
+        /* стили для малого смартфона */
+        .place {
+            max-width: 320px;
+            height: 964px;
+        }
+    }
