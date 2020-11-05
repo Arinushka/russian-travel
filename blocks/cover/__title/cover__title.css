@@ -9,16 +9,6 @@
     position: relative;
 }
 
-@media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
-    .cover__title {}
-}
-
-@media screen and (max-width: 768px) {
-    /* стили для планшета */
-    .cover__title {}
-}
-
 @media screen and (max-width: 450px) {
     /* стили для широкого смартфона */
     .cover__title {

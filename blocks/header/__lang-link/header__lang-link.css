@@ -1,4 +1,17 @@
 .header__lang-link {
     color: #fff;
-    font-family: 'Inter', Arial, sans-serif, Helvetica;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    max-width: 29px;
+    text-decoration: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+    .header__lang-link {
+        font-size: 1.12rem;
+        line-height: 1.25rem;
+    }
 }

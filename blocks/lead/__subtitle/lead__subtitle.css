@@ -8,13 +8,20 @@
     max-width: 640px;
 }
 
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+    .lead__subtitle {
+        margin-bottom: 56px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     /* стили для широкого смартфона */
     .lead__subtitle {
+        margin-bottom: 40px;
         max-width: 300px;
         font-size: 1.4rem;
         line-height: 1.7rem;
-        font-weight: 400;
     }
 }
 
@@ -24,6 +31,5 @@
         max-width: 288px;
         font-size: 1rem;
         line-height: 1.25rem;
-        font-weight: 400;
     }
 }

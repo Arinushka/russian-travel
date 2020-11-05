@@ -1,16 +1,17 @@
 .place__paragraph {
-    margin: 0 a;
+    margin: 0 auto;
     margin-bottom: 26px;
     font-size: 1.12rem;
-    line-height: 1.83rem;
+    line-height: 1.81rem;
     font-weight: 400;
+    align-self: start;
 }
 
 @media screen and (max-width: 768px) {
     /* стили для планшета */
     .place__paragraph {
         font-size: 1rem;
-        line-height: 1.6rem;
+        line-height: 1.62rem;
     }
 }
 

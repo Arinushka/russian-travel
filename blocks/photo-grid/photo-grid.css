@@ -1,19 +1,19 @@
 .photo-grid {
     max-width: 1184px;
-    margin-top: 92px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     justify-items: center;
     align-items: center;
     gap: 16px;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin: 0 auto;
+    margin-top: 92px;
 }
 
-@media screen and (max-width: 2560px) {
-    /* стили для планшета */
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
     .photo-grid {
-        margin: 0 auto;
+        margin-left: 48px;
+        margin-right: 48px;
     }
 }
 

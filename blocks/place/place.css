@@ -1,36 +1,48 @@
     .place {
         list-style: none;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-        column-gap: 40px;
+        grid-template-columns: 460px 1fr;
+        grid-column-gap: 40px;
         max-width: 984px;
-        min-height: 660px;
         margin-top: 80px;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        /* стили для планшета в альбомной ориентации */
+        .place {
+            grid-template-columns: 440px 1fr;
+            grid-column-gap: 32px;
+            margin-right: 48px;
+            margin-left: 48px;
+        }
     }
     
     @media screen and (max-width: 768px) {
         /* стили для планшета */
         .place {
+            grid-template-columns: 340px 1fr;
+            grid-column-gap: 28px;
             max-width: 720px;
-            min-height: 581px;
+            margin-top: 73px;
         }
     }
     
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 650px) {
         /* стили для широкого смартфона */
         .place {
+            display: block;
             max-width: 380px;
-            min-height: 930px;
             margin-left: 16px;
             margin-right: 16px;
+            margin-top: 66px;
         }
     }
     
     @media screen and (max-width: 320px) {
         /* стили для малого смартфона */
         .place {
+            margin-top: 49px;
             max-width: 320px;
-            min-height: 964px;
             margin-left: 0px;
             margin-right: 0px;
         }

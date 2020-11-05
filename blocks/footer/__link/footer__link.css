@@ -8,16 +8,11 @@
         margin-right: 18px;
     }
     
-    @media screen and (max-width: 768px) {
-        /* стили для планшета */
-        .footer__link {}
-    }
-    
     @media screen and (max-width: 320px) {
         /* стили для малого смартфона */
         .footer__link {
-            font-size: 1.3rem;
-            line-height: 1.3rem;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
             margin-bottom: 32px;
         }
     }

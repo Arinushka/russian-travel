@@ -1,6 +1,5 @@
 .cover {
     max-width: 1184px;
-    margin-top: 92px;
     margin: 0 auto;
 }
 
@@ -16,19 +15,5 @@
     /* стили для планшета в альбомной ориентации */
     .cover {
         margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    /* стили для планшета */
-    .cover {
-        margin-top: 90px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
-    .cover {
-        margin-top: 66px;
     }
 }
