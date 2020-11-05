@@ -1,5 +1,6 @@
 .lead__subtitle {
     margin: 0 auto;
+    margin-top: 32px;
     margin-bottom: 64px;
     text-align: center;
     font-size: 1.87rem;
@@ -31,5 +32,6 @@
         max-width: 288px;
         font-size: 1rem;
         line-height: 1.25rem;
+        margin-top: 16px;
     }
 }
