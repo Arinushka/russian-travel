@@ -8,6 +8,10 @@
         margin-right: 18px;
     }
     
+    .footer__link:hover {
+        opacity: 80%;
+    }
+    
     @media screen and (max-width: 320px) {
         /* стили для малого смартфона */
         .footer__link {

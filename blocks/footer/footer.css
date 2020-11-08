@@ -28,7 +28,6 @@
     /* стили для малого смартфона */
     .footer {
         max-width: 186px;
-        min-height: 310px;
         margin-top: 64px;
         flex-direction: column;
         margin-right: 164px;

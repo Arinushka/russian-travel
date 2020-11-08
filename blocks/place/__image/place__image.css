@@ -11,6 +11,20 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    /* стили для планшета */
+    .place__image {
+        max-width: 420px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* стили для планшета */
+    .place__image {
+        max-width: 370px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     /* стили для планшета */
     .place__image {
@@ -18,7 +32,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
     /* стили для широкого смартфона */
     .place__image {
         max-width: 320px;
@@ -27,7 +41,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     /* стили для малого смартфона */
     .place__image {
         margin-left: 0;

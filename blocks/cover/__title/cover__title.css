@@ -13,7 +13,6 @@
     /* стили для широкого смартфона */
     .cover__title {
         max-width: 310px;
-        min-height: 70px;
         font-size: 2.3rem;
         line-height: 2.5rem;
     }
@@ -23,7 +22,6 @@
     /* стили для малого смартфона */
     .cover__title {
         max-width: 288px;
-        min-height: 70px;
         font-size: 2rem;
         line-height: 2.18rem;
     }

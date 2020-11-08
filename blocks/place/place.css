@@ -17,6 +17,23 @@
         }
     }
     
+    @media screen and (max-width: 900px) {
+        /* стили для планшета */
+        .place {
+            grid-template-columns: 420px 1fr;
+            grid-column-gap: 30px;
+            margin-right: 24px;
+            margin-left: 24px;
+        }
+    }
+    
+    @media screen and (max-width: 800px) {
+        /* стили для планшета */
+        .place {
+            grid-template-columns: 370px 1fr;
+        }
+    }
+    
     @media screen and (max-width: 768px) {
         /* стили для планшета */
         .place {
@@ -30,10 +47,11 @@
     @media screen and (max-width: 650px) {
         /* стили для широкого смартфона */
         .place {
-            display: block;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             max-width: 380px;
-            margin-left: 16px;
-            margin-right: 16px;
+            margin: 0 auto;
             margin-top: 66px;
         }
     }
