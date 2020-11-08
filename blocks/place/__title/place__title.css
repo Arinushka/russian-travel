@@ -21,14 +21,14 @@
     /* стили для широкого смартфона */
     .place__title {
         margin: 0 auto;
-        margin-bottom: 35px;
+        margin-bottom: 32px;
     }
 }
 
 @media screen and (max-width: 450px) {
     /* стили для широкого смартфона */
     .place__title {
-        font-size: 2.2rem;
+        font-size: 2rem;
         line-height: 2.2rem;
     }
 }
@@ -37,7 +37,5 @@
     /* стили для малого смартфона */
     .place__title {
         margin-left: 16px;
-        margin-bottom: 32px;
-        font-size: 2rem;
     }
 }

@@ -9,17 +9,16 @@
     position: relative;
 }
 
-@media screen and (max-width: 450px) {
-    /* стили для широкого смартфона */
+@media screen and (max-width: 680px) {
+    /* стили для планшета */
     .cover__title {
-        max-width: 310px;
-        font-size: 2.3rem;
-        line-height: 2.5rem;
+        font-size: 3rem;
+        line-height: 3.18rem;
     }
 }
 
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+@media screen and (max-width: 450px) {
+    /* стили для широкого смартфона */
     .cover__title {
         max-width: 288px;
         font-size: 2rem;
