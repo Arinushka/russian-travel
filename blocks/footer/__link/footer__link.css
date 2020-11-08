@@ -10,6 +10,7 @@
     
     .footer__link:hover {
         opacity: 80%;
+        transition-duration: 1s;
     }
     
     @media screen and (max-width: 320px) {

@@ -9,4 +9,5 @@
 
 .place__link:hover {
     opacity: 80%;
+    transition-duration: 1s;
 }
